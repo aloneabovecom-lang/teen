@@ -99,7 +99,7 @@ export default function DocsPage() {
               <div className="mt-6 pt-5 border-t border-[#1a1a1a]">
                 <div className="text-[#444] text-[10px] font-mono tracking-widest mb-3 uppercase">Версия Устава</div>
                 <div className="text-[#7eff6a] text-sm font-mono font-bold">v1.0.0</div>
-                <div className="text-[#444] text-xs font-mono mt-1">2025 · TeenBuild</div>
+                <div className="text-[#444] text-xs font-mono mt-1">2026 · TeenBuild</div>
               </div>
             </div>
           </aside>
@@ -150,7 +150,7 @@ export default function DocsPage() {
             <section id="spaces">
               <DocPartHeader num="II" title="Структура пространств" />
               <p className="text-[#666] text-base font-grotesk mb-8">
-                Хаб состоит из трёх официальных пространств, в каждом из которых действуют чёткие правила поведения.
+                Хаб состоит из трёх официальных пространств, в каждом из которых действуют чёткие правила поведе…
               </p>
 
               <SpaceDocCard
@@ -183,12 +183,12 @@ export default function DocsPage() {
                 purpose="Витрина проектов. Канал-галерея, где публикуются карточки проектов для поиска помощников."
                 formatBlock={{
                   title: 'Обязательный формат публикации',
-                  items: ['Название билда', 'Стек: (Python/Django, React, Figma и т.д.)', 'Суть: краткое ясное описание (1–2 предложения)', 'Список Квестов: какие задачи открыты', 'Контакты автора'],
+                  items: ['Название билда', 'Стек: (Python/Django, React, Figma и т.д.)', 'Суть: краткое ясное описание (1–2 предложения)…']
                 }}
                 allowed={[
                   'Пет-проекты на любой стадии — от идеи до альфа-версии',
                   'Поиск соавторов (кодеров, дизайнеров, тестировщиков, девопсов)',
-                  'Запрос на ревью архитектуры или дизайна',
+                  'Запрос на ревью архитектуры или ди��айна',
                   'Уведомление о форке/наследовании заброшенного проекта',
                 ]}
                 forbidden={[
@@ -206,7 +206,7 @@ export default function DocsPage() {
                 purpose="Качественный контент, созданный участниками: туториалы, технические статьи, «Фейл-логи»."
                 formatBlock={{
                   title: 'Требования к статье',
-                  items: ['Тег темы (#кейс, #разработка, #инструменты, #лайфхак, #метрики, #разборОшибок)', 'Контакты автора', 'Структурированный текст объёмом от 2000 знаков', 'Отсутствие прямой рекламы', 'Польза для сообщества'],
+                  items: ['Тег темы (#кейс, #разработка, #инструменты, #лайфхак, #метрики, #разборОшибок)', 'Контакты автор…']
                 }}
                 allowed={[
                   'Экспертиза по разработке, дизайну, архитектуре',
@@ -225,7 +225,7 @@ export default function DocsPage() {
             <section id="economy">
               <DocPartHeader num="III" title="Экономика (XP и Грейды)" />
               <p className="text-[#666] text-base font-grotesk mb-8">
-                Экономика Хаба базируется на одной сущности: <strong className="text-white">XP (Experience Points)</strong> — несгораемом показателе вашей репутации и вклада в сообщество.
+                Экономика Хаба базируется на одной сущности: <strong className="text-white">XP (Experience Points)</strong> — несгораемом пок…
               </p>
 
               <DocSection title="3.1. Матрица начисления XP">
@@ -267,11 +267,11 @@ export default function DocsPage() {
               <DocSection title="3.2. Грейды (Уровни доступа)">
                 <div className="space-y-3">
                   {[
-                    { level: 0, name: 'Recruit', xp: '0–99', color: '#666', icon: '🧑‍💻', rights: 'Читать чат, откликаться на Квесты, быть Помощником.' },
-                    { level: 1, name: 'Builder', xp: '100–249', color: '#7eff6a', icon: '🔨', rights: 'Право публиковать свои Билды на Витрине. Становиться Автором.' },
-                    { level: 2, name: 'Crafter', xp: '250–499', color: '#60a5fa', icon: '⚒️', rights: 'Право запрашивать внеочередное Код-ревью у участников с высоким Грейдом.' },
-                    { level: 3, name: 'Archon', xp: '500–999', color: '#f5c842', icon: '📜', rights: 'Входит в Редколлегию. Право одобрять или отклонять статьи.' },
-                    { level: 4, name: 'Sentinel', xp: '1000+', color: '#f472b6', icon: '🛡️', rights: 'Входит в Совет Стражей. Права модерации и верификации квестов.' },
+                    { level: 0, name: 'Recruit', xp: '0–99', color: '#666', icon: '🧑‍💻', rights: 'Читать чат, откликаться на Квесты, быть Помощни…' },
+                    { level: 1, name: 'Builder', xp: '100–249', color: '#7eff6a', icon: '🔨', rights: 'Право публиковать свои Билды на Витрине. Станов…' },
+                    { level: 2, name: 'Crafter', xp: '250–499', color: '#60a5fa', icon: '⚒️', rights: 'Право запрашивать внеочередное Код-ревью у уча…' },
+                    { level: 3, name: 'Archon', xp: '500–999', color: '#f5c842', icon: '📜', rights: 'Входит в Редколлегию. Право одобрять или отклоня…' },
+                    { level: 4, name: 'Sentinel', xp: '1000+', color: '#f472b6', icon: '🛡️', rights: 'Входит в Совет Стражей. Права модерации и верифи…' },
                   ].map((g) => (
                     <div key={g.level} className="flex items-start gap-5 p-5 rounded-xl border border-[#1a1a1a] hover:border-current/30 transition-all group"
                       style={{ '--tw-border-opacity': 0.3 } as React.CSSProperties}>
@@ -347,7 +347,7 @@ export default function DocsPage() {
                     name="Read-Only на 24 часа"
                     color="#f97316"
                     icon="🔇"
-                    desc="Временный запрет на отправку сообщений во всех каналах. Назначается при повторном нарушении."
+                    desc="Временный запрет на отправку сообщений во всех каналах. Назначается при повторном нарушени…"
                   />
                   <PunishmentCard
                     level={3}
@@ -365,7 +365,7 @@ export default function DocsPage() {
               <DocPartHeader num="V" title="Протокол «Фейл-лог» (Право на ошибку)" />
 
               <CalloutBox type="success">
-                В TeenBuild провал — это не клеймо, а контент и урок для всех. Если Автор понимает, что проект заморожен и не будет развиваться, он обязан честно его «похоронить», написав статью в Редакцию.
+                В TeenBuild провал — это не клеймо, а контент и урок для всех. Если Автор понимает, что проект заморожен…
               </CalloutBox>
 
               <DocSection title="Содержание Фейл-лога">
@@ -396,7 +396,7 @@ export default function DocsPage() {
               <DocSection title="Последствия для проекта">
                 <div className="space-y-2">
                   <RuleItem text="Проект объявляется «осиротевшим»." type="info" />
-                  <RuleItem text="Любой участник может подать заявку на Наследование (форк) без разрешения исходного Автора." type="info" />
+                  <RuleItem text="Любой участник может подать заявку на Наследование (форк) без разрешения исходного Авто…" type="info" />
                   <RuleItem text="Наследник становится новым Автором и получает +50 XP при публикации форка." type="success" />
                 </div>
               </DocSection>
